@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="./transfer.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+<body>
+<div class="transfer" id="transfer">
+    <div class="transfer-box">
+        <div id="left" class="left">
+            <div class="item">
+                <input type="checkbox">
+                <div>Transfer</div>
+            </div>
+            <div class="item">
+                <input type="checkbox">
+                <div>Transfer 1</div>
+            </div>
+            <div class="item">
+                <input type="checkbox">
+                <div>Transfer 2</div>
+            </div>
+        </div>
+    </div>
+    <div class="transfer-action">
+        <div class="circle" onclick="leftNode()">
+            <i style="font-size: 30px;" class="material-icons">arrow_forward_ios</i>
+        </div>
+        <div class="circle" onclick="rightNode()">
+            <i style="font-size: 30px;" class="material-icons">arrow_back_ios</i>
+        </div>
+    </div>
+    <div class="transfer-box" >
+        <div id="right" class="right">
+            <div class="item">
+                <input type="checkbox">
+                <div>Transfer 3</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./transfer.js"></script>
+</body>
+</html>

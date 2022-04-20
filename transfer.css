@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccccdd;
+}
+.transfer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.transfer-box{
+    display: flex;
+    margin: 30px;
+    border-radius: 5px;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: flex-start;
+    background-color: white;
+}
+.transfer-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.item{
+    gap: 15px;
+    display: flex;
+    width: 590px;
+    align-items: center;
+    font-size: 28px;
+    border-bottom: 1px solid #939090;
+    margin: 30px;
+}
+input[type=checkbox]{
+    transform: scale(2);
+
+}
+.circle{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+    background-color: #327EC3;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.circle:hover{
+    background-color: #68A4FF;
+    cursor: pointer;
+}
